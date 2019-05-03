@@ -1,0 +1,31 @@
+#nav-list a{
+  color: black;
+}
+
+#landing-container-portfolio {
+  height: auto;
+}
+
+#portfolio .yellow-selected {
+  opacity: 1;
+}
+
+/* PORTFOLIO BOXES */
+.portfolio-boxes-container {
+  margin-top: 100px;
+}
+.portfolio-wrap {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-box {
+  width: 30%;
+  height: 325px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  background-color: gray;
+}

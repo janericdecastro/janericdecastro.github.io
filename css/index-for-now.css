@@ -1,0 +1,150 @@
+.landing-container-section {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+
+}
+
+.landing-container {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+  background:linear-gradient(0deg,rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("");
+}
+
+#hero-picture {
+  width: 10%;
+  height: 100%;
+  background-image: url('../img/jan.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#hero-description-container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+#hero-description-container {
+  color: white;
+}
+
+.hero-logo-container {
+  position: relative;
+  width: 70%;
+  margin: auto;
+}
+
+.hero-logo-container img {
+  width: 80px;
+  display: block;
+  margin-auto;
+  position: absolute;
+}
+
+.hero-logo-container h3{
+  font-size: 1.5em;
+  padding-top: 10px;
+  margin-left: 100px;
+}
+
+.hero-logo-container p{
+  font-size: 1.1em;
+  font-weight: 300;
+  margin-left: 100px;
+  padding-top: 10px;
+}
+
+
+#hero-description {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  height: auto;
+}
+
+#hero-description h1{
+  font-size: 3em;
+}
+
+#hero-description p {
+  margin-top: 32px;
+  line-height: 32px;
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+.landing-message-construction {
+  font-size: 1.5em;
+  margin-top: 100px;
+}
+
+.landing-message-construction h1 {
+  font-family: "playfair";
+  text-align: ;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.landing-message-construction p {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: ;
+}
+
+
+.mouse {
+  color: white;
+  font-size: 11px;
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+}
+
+
+.mouse span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-top: 10px;
+  width: 2px;
+  height: 5px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid transparent;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+  animation-name: scroll;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+    }
+}
+
+/* HERO IMG */
+
+.hero-img {
+  width: 50%;
+  height: 100vh;
+  background-image: url('../img/jan.jpg');
+  background-size: cover;
+  background-position: center;
+}
